@@ -1,12 +1,13 @@
 package Assignment;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
+
 
 public class removeDuplicatesFromArray {
 
 	public static void main(String[] args) {
 		int n[]= {1,1,2,2,3,3,4,4,4,5,5,5,5};
-		LinkedHashSet set=new LinkedHashSet();
+		HashSet set=new HashSet();
 		for(int i=0;i<n.length;i++) {
 			int a1=n[i];
 			set.add(a1);

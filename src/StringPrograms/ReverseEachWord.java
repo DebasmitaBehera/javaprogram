@@ -10,8 +10,5 @@ public class ReverseEachWord {
 			StringBuilder Builder=new StringBuilder(str);
 			System.out.print(Builder.reverse()+" ");
 		}
-		
-
 	}
-
 }

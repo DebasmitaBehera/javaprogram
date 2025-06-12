@@ -17,7 +17,6 @@ public class ShiftzerosToRightAssignment {
 		}
        System.out.println(Arrays.toString(res));
 	}
-
-	}
+}
 
 

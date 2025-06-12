@@ -20,9 +20,6 @@ public class PrintDuplicateArrayList {
 			{
 				System.out.println(list.get(i)+" ");
 				
-			}
-		}
+}}}}
+		
 
-	}
-
-}

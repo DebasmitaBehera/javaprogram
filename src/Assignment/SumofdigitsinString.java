@@ -11,9 +11,7 @@ public class SumofdigitsinString {
 			if(ch>='0' && ch<='9') {
 				sum=sum+(ch-'0');
 			}
-			
 		}
-System.out.println(sum);
+     System.out.println(sum);
 	}
-
 }

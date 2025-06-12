@@ -15,8 +15,6 @@ public class LeftRotation {
 		str[str.length-1]=temp;
 		System.out.println(Arrays.toString(str));
 }
-	
-
 }
 	
 }

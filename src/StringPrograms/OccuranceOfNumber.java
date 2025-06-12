@@ -1,6 +1,7 @@
 package StringPrograms;
 
 import java.util.LinkedHashMap;
+import java.util.Map.Entry;
 
 public class OccuranceOfNumber {
 
@@ -17,6 +18,12 @@ public class OccuranceOfNumber {
 			
 		}
 		System.out.println(hs);
+		for(Entry< Character, Integer> e:hs.entrySet()) {
+			if(e.getValue()>=1) {
+				System.out.println(e.getKey()+" "+e.getValue());
+			}
+			
+		}
 	}
 
 }

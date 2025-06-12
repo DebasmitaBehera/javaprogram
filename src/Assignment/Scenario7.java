@@ -16,8 +16,6 @@ public class Scenario7 {
 			else
 				map.put(a1, 1);
 		}
-		
-
 	}
 
 }

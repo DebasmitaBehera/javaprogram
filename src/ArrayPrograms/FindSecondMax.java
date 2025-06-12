@@ -18,6 +18,7 @@ public class FindSecondMax {
 		}
 				
 System.out.println(sec_max);
+System.out.println(max);
 	}
 
 }
