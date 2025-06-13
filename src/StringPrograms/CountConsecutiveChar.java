@@ -10,11 +10,11 @@ public class CountConsecutiveChar {
 			if(s.charAt(i)==s.charAt(i+1)) {
 				count++;
 			}else {
-				System.out.print(s.charAt(i)+""+count);
+				System.out.println(s.charAt(i)+""+count);
 				count=1;
 			}
 		}
-		System.out.print(s.charAt(s.length()-1)+""+count);
+		System.out.println(s.charAt(s.length()-1)+""+count);
 	}
 
 }
