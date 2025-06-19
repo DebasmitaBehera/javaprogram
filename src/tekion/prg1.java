@@ -3,10 +3,10 @@ package tekion;
 public class prg1 {
 
 	public static void main(String[] args) {
-		String s="ABCDEFDAA";
-		for(int i=0;i<s.length();i++) {
-			char ch=s.charAt(i);
-			if(s.indexOf(ch)!=s.lastIndexOf(ch) && i==s.indexOf(ch));
+		String string="ABCDEFDAA";
+		for(int i=0;i<string.length();i++) {
+			char ch=string.charAt(i);
+			if(string.indexOf(ch)!=string.lastIndexOf(ch) && i==string.indexOf(ch));
 			System.out.print(ch);
 		}
 
