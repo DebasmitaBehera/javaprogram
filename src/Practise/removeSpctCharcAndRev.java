@@ -10,7 +10,8 @@ public class removeSpctCharcAndRev {
      if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z') || (ch>='0' && ch<='9')){
         System.out.print(ch);
         res=res+ch;
-}}
+}
+     }
  
  StringBuilder b=new StringBuilder(res);
  StringBuilder rev=b.reverse();
