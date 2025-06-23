@@ -11,7 +11,7 @@ public class countvowels {
       int count=0;
       String vowels="aeiouAEIOU";
       for(int i=0;i<w.length();i++){
-          if(vowels.indexOf(w.charAt(i)) != -1);
+          if(vowels.indexOf(w.charAt(i)) != -1) {
           count++;
       }
 
@@ -19,4 +19,4 @@ public class countvowels {
 
 	}
 
-}
+}}
