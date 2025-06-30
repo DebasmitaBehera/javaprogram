@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 public class printDuplicatesInSentence {
 
 	public static void main(String[] args) {
-        String s="my name is debasmita my name is debasmita the";
+        String s="my name is debasmita name is debasmita the";
         String[] s1=s.split(" ");
         HashMap<String,Integer> map=new  HashMap<String,Integer>();
         for(int i=0;i<s1.length;i++){
@@ -18,8 +18,8 @@ public class printDuplicatesInSentence {
         }
 
 for(Entry<String,Integer> e:map.entrySet()){
-    if(e.getValue()>1){
-        System.out.print(e.getKey()+" "+e.getValue());
+    if(e.getValue()==1){
+        System.out.println(e.getKey()+" : "+e.getValue());
     }
 }
      }       }

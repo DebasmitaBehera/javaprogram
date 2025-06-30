@@ -18,7 +18,7 @@ public class countcharcterusinghashmap {
         }
         for(Entry<Character,Integer> e:map.entrySet()){
             if(e.getValue()>0){
-                System.out.print(e.getKey()+"="+e.getValue());
+                System.out.print(e.getKey()+" : "+e.getValue());
             }
         }
 
