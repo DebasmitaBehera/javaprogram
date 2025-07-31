@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class prg10 {
 
 	public static void main(String[] args) {
-		int a[]= {1,2,3,4,5,5,4,7,9,8};
+		int a[]= {1,2,3,4,5,5,4,7,9,8,0};
 		ArrayList< Integer> list =new ArrayList<>();
 		for(int i=0;i<a.length;i++) {
 			list.add(a[i]);
