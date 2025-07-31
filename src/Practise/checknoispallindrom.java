@@ -6,6 +6,7 @@ public class checknoispallindrom {
         int n=121;
         int temp=n;
         int x=0;
+        
         while(n>0)  
         {
             int digit=n%10;

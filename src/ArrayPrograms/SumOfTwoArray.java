@@ -20,7 +20,6 @@ public class SumOfTwoArray {
 			}
 		}
 		System.out.println(Arrays.toString(sum));
-
 	}
 
 }

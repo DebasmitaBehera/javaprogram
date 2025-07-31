@@ -21,10 +21,10 @@ public class ThirdMaxAssignment {
 				thirdMax = a[i];
 			}
 		}
-		System.out.println("max="+max);
-		System.out.println("secmax="+secondMax);
+		//System.out.println("max="+max);
+		//System.out.println("secmax="+secondMax);
 		System.out.println("thirdmax="+thirdMax);
-		System.out.println(max+secondMax+thirdMax);
+		//System.out.println(max+secondMax+thirdMax);
 	}
 
 

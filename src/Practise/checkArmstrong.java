@@ -6,6 +6,7 @@ public class checkArmstrong {
 	     int a=789;
 	     double x=0;
 	     int temp=a;
+	     
 	     while(a>0){
 	         int d=a%10;
 	         x=x+Math.pow(d,3);
