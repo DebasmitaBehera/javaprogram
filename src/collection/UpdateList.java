@@ -12,6 +12,7 @@ public class UpdateList {
 		System.out.println(list);
 		list.set(0, "i ate");
 		System.out.println(list);
+		System.out.println(list);
 
 	}
 
